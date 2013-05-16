@@ -64,7 +64,7 @@
             	$hive.sendForm({
             		"sURL"		: htVar.sActionURL,
             		"htOptForm"	: {"method":"get"},
-			"htData"	: htVar.htData,
+            		"htData"	: htVar.htData,
                     "sDataType" : "json",
             		"fOnLoad"	: function(oData, oStatus, oXHR){
             			var sContentRange = oXHR.getResponseHeader('Content-Range');
